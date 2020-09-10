@@ -1,20 +1,24 @@
-p {
-	font-family: "Lucida Console", Monaco, "sans-serif";
+html {
+  font-family: Arial, 'sans-serif';
 }
 
-h1, h2 {
-	font-weight: bold;
+h1 {
+  font-weight: bold;
+  color: white;
+}
+
+h1::selection {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+p::selection {
+  color: yellow;
 }
 
 body {
-	background-color: #37B5EF;
-	width: 100%;
-	padding-top: 2%;
-}
-
-a {
-	text-decoration: none;
-} 
-p.license {
-	margin-bottom: 20px;
+  background-color: black;
 }
