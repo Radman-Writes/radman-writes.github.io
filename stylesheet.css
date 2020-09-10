@@ -22,3 +22,11 @@ p::selection {
 body {
   background-color: black;
 }
+
+a::selection {
+  color: #1d3863;
+}
+
+i::selection {
+  color: darkred;
+}
