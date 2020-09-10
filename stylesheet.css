@@ -30,3 +30,7 @@ a::selection {
 i::selection {
   color: darkred;
 }
+
+a {
+  color: violet;
+}
