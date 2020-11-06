@@ -7,6 +7,13 @@
    <meta name="description" content="Radman Siddiki's website for his writings.">
    <link rel="manifest" href="/manifest.webmanifest" />
    <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/61620631?s=64&v=4">
+    <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('service worker registered'))
+        .catch(err => console.log('service worker not registered', err));
+      }
+</script>
 </head>
 <body>
    <h1>Welcome to Radman Writes!</h1>
